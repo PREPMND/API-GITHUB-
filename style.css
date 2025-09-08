@@ -56,8 +56,17 @@ body ,html{
     background-position: 100% 50%;
   }
   100% {
+  
     background-position: 0% 50%;
   }*/
-
 }
-
+img{
+  display: none;
+}
+.img{
+  display: inline-block;
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
