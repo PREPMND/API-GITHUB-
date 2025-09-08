@@ -1,0 +1,63 @@
+body ,html{
+  height: 100%;
+  width: 100%;  
+  margin: 20px 20px;
+  position: absolute;
+  overflow: hidden;
+}
+.entry,.result{
+  padding: 18px;
+  text-align: center;
+  font-size: 2rem;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.result{
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff0057, #ffae00, #00ffd0, #008cff, #e100ff);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+  /*
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(270deg, #ff0080, #ffae00, #00ffe7, #008cff, #e100ff);
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 0 0 10px #ff00c8, 0 0 20px #ff00c8, 0 0 40px #ff00c8;
+  animation: moveGradient 4s ease infinite;
+}
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }*/
+
+}
+
